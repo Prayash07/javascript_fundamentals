@@ -38,3 +38,21 @@ if (hasDrivingLicense && hasGoodVision) {
 } else {
   console.log("You are unable to drive!");
 }
+
+const day = "Sunday";
+
+switch (day) {
+  case "Monday":
+    console.log("Yeah it's Monday!");
+    break;
+
+  default:
+    console.log("No, It's not Monday!");
+    break;
+}
+
+const myAge = 21;
+
+myAge >= 18
+  ? console.log("You are allowed to drink beer!")
+  : console.log("You are not allowed to drink beer!");
