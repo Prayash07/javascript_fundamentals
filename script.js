@@ -19,13 +19,22 @@ const birthYear = 1996;
 const prayash = `I'm ${name} I'm a ${job} I was born in ${birthYear}`;
 console.log(prayash);
 
-const age = 15;
+const age = 18;
 
-if (age >= 18) {
+if (age === 18) {
   console.log("Yes, You can start Driving! 🚘");
 } else {
   const yearsLeft = 18 - age;
   console.log(
     `You're too young to drive. Wait for anothoer ${yearsLeft} to start Driving.`
   );
+}
+
+const hasDrivingLicense = true;
+const hasGoodVision = false;
+
+if (hasDrivingLicense && hasGoodVision) {
+  console.log("Yor are able to drive!");
+} else {
+  console.log("You are unable to drive!");
 }
