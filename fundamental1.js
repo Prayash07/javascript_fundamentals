@@ -6,15 +6,15 @@ console.log(javaScriptIsFun);
 console.log(typeof javaScriptIsFun);
 
 const now = 2024;
-const agePrayash = now - 1996;
-const ageSushmita = now - 1998;
+const agePrayash = now - 1999;
+const ageSushmita = now - 1999;
 console.log(agePrayash, ageSushmita);
 
 console.log(agePrayash > ageSushmita);
 
 const name = "Prayash Koirala";
 const job = "Software Developer";
-const birthYear = 1996;
+const birthYear = 1998;
 
 const prayash = `I'm ${name} I'm a ${job} I was born in ${birthYear}`;
 console.log(prayash);
